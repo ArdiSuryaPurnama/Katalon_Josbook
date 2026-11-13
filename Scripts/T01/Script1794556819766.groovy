@@ -22,17 +22,17 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('http://127.0.0.1:8000/login')
 
-WebUI.setText(findTestObject('TO1 - Valid/Page_Masuk  JosBook/input_Masukkan Nama Pengguna atau NIS_NIP'), '19450801')
+WebUI.setText(findTestObject('T01 - Valid/Page_Masuk  JosBook/input_Masukkan Nama Pengguna atau NIS_NIP'), '19450801')
 
-WebUI.setText(findTestObject('TO1 - Valid/Page_Masuk  JosBook/input_Masukkan Nama Pengguna atau NIS_NIP'), '')
+WebUI.setText(findTestObject('T01 - Valid/Page_Masuk  JosBook/input_Masukkan Nama Pengguna atau NIS_NIP'), '')
 
-WebUI.setText(findTestObject('TO1 - Valid/Page_Masuk  JosBook/input_Masukkan Nama Pengguna atau NIS_NIP'), '19450817')
+WebUI.setText(findTestObject('T01 - Valid/Page_Masuk  JosBook/input_Masukkan Nama Pengguna atau NIS_NIP'), '19450817')
 
-WebUI.setEncryptedText(findTestObject('TO1 - Valid/Page_Masuk  JosBook/input_Masukkan kata sandi Anda'), '/5S6MFFLcE7DwdGq+5ZqDg==')
+WebUI.setEncryptedText(findTestObject('T01 - Valid/Page_Masuk  JosBook/input_Masukkan kata sandi Anda'), '/5S6MFFLcE7DwdGq+5ZqDg==')
 
-WebUI.click(findTestObject('TO1 - Valid/Page_Masuk  JosBook/button_Masuk'))
+WebUI.click(findTestObject('T01 - Valid/Page_Masuk  JosBook/button_Masuk'))
 
-WebUI.click(findTestObject('TO1 - Valid/Page_Dashboard  JosBook/h2_Dashboard'))
+WebUI.click(findTestObject('T01 - Valid/Page_Dashboard  JosBook/h2_Dashboard'))
 
-WebUI.click(findTestObject('TO1 - Valid/Page_Dashboard  JosBook/small_Akses penuh'))
+WebUI.click(findTestObject('T01 - Valid/Page_Dashboard  JosBook/small_Akses penuh'))
 
