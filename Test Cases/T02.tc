@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>T02</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>e41251140</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>e41251140</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>c1382290-fdcd-4632-9500-4d61e7e90525</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>c1382290-fdcd-4632-9500-4d61e7e90525</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0687d97d-07b8-48ea-8880-b4808c247aff</testCaseGuid>
+</TestCaseEntity>
