@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>percobaan</description>
+   <name>T04</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>E FARIN SEVANY KASIH</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>E FARIN SEVANY KASIH</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>45bcceb0-d3f5-4453-b77e-6e2fbcad2afa</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>45bcceb0-d3f5-4453-b77e-6e2fbcad2afa</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea30c806-2dc5-4dba-a9ef-a17282eddf60</testCaseGuid>
+</TestCaseEntity>
