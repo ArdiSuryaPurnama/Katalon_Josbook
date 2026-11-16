@@ -18,7 +18,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('T01'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('T02 Dashboard/Page_Dashboard  JosBook/a_Data Siswa'))
 

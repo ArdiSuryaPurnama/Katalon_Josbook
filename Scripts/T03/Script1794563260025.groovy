@@ -22,6 +22,8 @@ WebUI.openBrowser(null)
 
 WebUI.navigateToUrl('http://127.0.0.1:8000/login')
 
+WebUI.callTestCase(findTestCase('T02'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('T03/Page_Masuk  JosBook/div_JOSBOOK'))
 
 WebUI.click(findTestObject('T03/Page_Masuk  JosBook/div_Selamat Datang'))
@@ -39,4 +41,6 @@ WebUI.click(findTestObject('T03/Page_Dashboard  JosBook/a_Form Pendataan'))
 WebUI.click(findTestObject('T03/Page_Form Pendataan  Siswa Baru  JosBook Admin/span_Kenaikan Kelas'))
 
 WebUI.click(findTestObject('T03/Page_Kenaikan Kelas  JosBook/a_Mutasi Siswa'))
+
+WebUI.check(findTestObject(null), FailureHandling.STOP_ON_FAILURE)
 
